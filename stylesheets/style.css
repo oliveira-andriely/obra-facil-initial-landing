@@ -1,0 +1,171 @@
+
+/*erros: nao consigo colocar o formulario no centro, sempre fica embaixo
+ o background fica atras das imagens nos apps mesmo usando hover*/
+
+ /*o projeto ainda esta em andamento*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: var(--color-dark5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-dark1: #000000;
+    --color-dark2: #2b2a2a;
+    --color-dark3: #424141;
+    --color-dark4: #726f6f;
+    --color-dark5: #c9c2c2;
+    --color-white: #ffffff;
+    --color-green: #15a877;
+    --color-green2: #114d34;
+}
+
+.logo-header{ 
+    width: 200px;
+}
+
+.header {
+    background-color: var(--color-white);
+    box-shadow: 1px 3px 4px var(--color-dark4); 
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.apps{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+h1{
+font-size: 18px;
+color: var(--color-dark4);
+font-weight:lighter;
+}
+ 
+#page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    width: 600px;
+} 
+
+iframe{
+    width: 500px;
+}
+
+h2{
+    font-size: 20px;
+    padding: 5px;
+    color: var(--color-dark1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+    color: var(--color-dark4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: var(--color-white);
+    width: x;
+    padding: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+   
+}
+
+.inputs{
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    gap: 10px;
+    background-color: var(--color-dark5);
+    color: var(--color-white);
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+   
+}
+
+.inputs:hover{
+    border: 1px solid  var(--color-dark1);
+    color: var(--color-dark1);
+}
+
+.center, form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+
+}
+
+button{
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: var(--color-green);
+    color: var(--color-dark1);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--color-green2);
+    color: var(--color-white);
+    transition: .5s;
+}
+
+h5{
+    font-size: 15px;
+    font-weight: lighter;
+    color: var(--color-dark4);
+}
+
+span{
+    font-size: 25px;
+}
+
+#yt:hover{
+background-image: url('../images/social_media_icons/youtube-hover.png');
+background-repeat: no-repeat;
+}
+
+#face:hover{
+background-image: url('../images/social_media_icons/facebook-hover.png');
+background-repeat: no-repeat;
+}
+
+#insta:hover{
+background-image: url('../images/social_media_icons/instagram-hover.png');
+background-repeat: no-repeat;
+}
+
+#yt,#insta,#face{padding: 5px;}
+
+
+
+
+
