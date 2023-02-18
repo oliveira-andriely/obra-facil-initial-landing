@@ -24,10 +24,15 @@ body {
     --color-white: #ffffff;
     --color-green: #15a877;
     --color-green2: #114d34;
+    --color-green3: #107050;
+
+
 }
 
 .logo-header{ 
     width: 200px;
+    padding: 25px;
+    padding-right: 40%;
 }
 
 .header {
@@ -37,15 +42,13 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-
+ 
 .apps{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    padding: 5px;
 }
-
+ 
 h1{
 font-size: 18px;
 color: var(--color-dark4);
@@ -83,13 +86,11 @@ h4{
 
 .container{
     background-color: var(--color-white);
-    width: x;
     padding: 25px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    width: 300px;
-   
+    width: 300px;   
 }
 
 .inputs{
@@ -136,6 +137,7 @@ button:hover{
     background-color: var(--color-green2);
     color: var(--color-white);
     transition: .5s;
+    margin: 5px;
 }
 
 h5{
@@ -147,6 +149,8 @@ h5{
 span{
     font-size: 25px;
 }
+
+
 
 #yt:hover{
 background-image: url('../images/social_media_icons/youtube-hover.png');
@@ -163,9 +167,34 @@ background-image: url('../images/social_media_icons/instagram-hover.png');
 background-repeat: no-repeat;
 }
 
-#yt,#insta,#face{padding: 5px;}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+} 
 
+.obs{
+    font-size: 14px;
+    color: var(--color-green3);
+    font-weight: bold;
+}
 
+.obs:hover{
+    cursor: context-menu;
+    transition: .3s;
+    color: var(--color-green2);
 
+}
 
-
+.pezin{
+    color: var(--color-dark4);
+    text-align: center;
+    margin: 25px;
+}
+.baixo{
+    height: 63px;
+    background-color: var(--color-white);
+    margin-top: 13%;
+    color: var(--color-white);
+}
